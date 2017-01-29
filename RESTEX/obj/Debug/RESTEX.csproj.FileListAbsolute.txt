@@ -1,0 +1,10 @@
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RESTEX\RESTEX\bin\Debug\RESTEX.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RESTEX\RESTEX\bin\Debug\RESTEX.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RESTEX\RESTEX\bin\Debug\RESTEX.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RESTEX\RESTEX\obj\Debug\RESTEX.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RESTEX\RESTEX\obj\Debug\RESTEX.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RESTEX\RESTEX\obj\Debug\RESTEX.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RESTEX\RESTEX\bin\Debug\RestSharp.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RESTEX\RESTEX\bin\Debug\RestSharp.xml
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RESTEX\RESTEX\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RESTEX\RESTEX\bin\Debug\Newtonsoft.Json.xml
