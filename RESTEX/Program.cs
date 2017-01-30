@@ -76,7 +76,7 @@ namespace RESTEX
 
         public static void printData(MarketItem[] Items)
         {
-            string fileName = "data.dat";
+            string fileName = "data.txt";
             using (StreamWriter w = new StreamWriter(fileName))
             {
                 w.WriteLine(">*** Number of Items: " + Items.Length.ToString());
