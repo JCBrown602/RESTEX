@@ -76,17 +76,19 @@ namespace RESTEX
 
         public static void printData(MarketItem[] Items)
         {
-            StreamWriter w = new StreamWriter("data.dat");
-
-            w.WriteLine(">*** Number of Items: " + Items.Length.ToString());
-            for (int i = 0; i < Items.Length; i++)
+            string fileName = "data.dat";
+            using (StreamWriter w = new StreamWriter(fileName))
             {
-                w.WriteLine("[" + i.ToString() + "] Type ID: " + Items[i].type_id + " Adj. Price: " + Items[i].adjusted_price);
-                //Console.WriteLine("> Type ID: " + Items[i].type_id + " Adj. Price: " + Items[i].adjusted_price);
-            }
-            w.WriteLine(">*** Number of Items: " + Items.Length.ToString());
+                w.WriteLine(">*** Number of Items: " + Items.Length.ToString());
+                for (int i = 0; i < Items.Length; i++)
+                {
+                    w.WriteLine("[" + i.ToString() + "] Type ID: " + Items[i].type_id + " Adj. Price: " + Items[i].adjusted_price);
+                    //Console.WriteLine("> Type ID: " + Items[i].type_id + " Adj. Price: " + Items[i].adjusted_price);
+                }
+                w.WriteLine(">*** Number of Items: " + Items.Length.ToString());
 
-            Console.WriteLine("> Writing to file operation complete.");
+                Console.WriteLine("> Writing to file ({0}) operation complete.", fileName);
+            }
         }
     }
 }
